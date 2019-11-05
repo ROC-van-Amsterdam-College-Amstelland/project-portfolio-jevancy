@@ -37,6 +37,31 @@
   <p><button>Contact</button></p>
 </div>
 
+<h3>Contact formulier</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">geboorteland</label>
+    <select id="country" name="country">
+      <option value="Nederland">Nederland</option>
+      <option value="België">België</option>
+      <option value="Duitsland">Duitsland</option>
+    </select>
+
+    <label for="subject">gegevens en korte tekst achterlaten</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
 
 </body>
 
