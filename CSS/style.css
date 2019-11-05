@@ -44,10 +44,13 @@ p{
   border-style: solid;
 }
 
-div{
+ #vlaggen{
   display: flex;
   justify-content: center;
 }
 #foto2, #foto3, #foto4 {
   display:none;
 }
+ body{
+   background-color: cyan;
+ }
