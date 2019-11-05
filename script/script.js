@@ -6,3 +6,10 @@ function verander() {
 }
 
 //en dan voor elke foto
+function verander2() {
+    //hide foto 1
+    document.getElementById("foto2").style.display= "none";
+    //show foto 2
+    document.getElementById("foto3").style.display="block";
+}
+
