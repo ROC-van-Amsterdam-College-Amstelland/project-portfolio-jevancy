@@ -12,4 +12,10 @@ function verander2() {
     //show foto 2
     document.getElementById("foto3").style.display="block";
 }
+function verander3() {
+    //hide foto 1
+    document.getElementById("foto3").style.display= "none";
+    //show foto 2
+    document.getElementById("foto4").style.display="block";
+}
 
