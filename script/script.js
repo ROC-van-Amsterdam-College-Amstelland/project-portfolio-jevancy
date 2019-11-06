@@ -3,6 +3,8 @@ function verander() {
     document.getElementById("foto1").style.display= "none";
     //show foto 2
     document.getElementById("foto2").style.display="block";
+    document.getElementById("foto2").style.margin="0 auto";
+    
 }
 
 //en dan voor elke foto
@@ -11,12 +13,21 @@ function verander2() {
     document.getElementById("foto2").style.display= "none";
     //show foto 2
     document.getElementById("foto3").style.display="block";
+    document.getElementById("foto3").style.margin="0 auto";
 }
 function verander3() {
     //hide foto 1
     document.getElementById("foto3").style.display= "none";
     //show foto 2
     document.getElementById("foto4").style.display="block";
+    document.getElementById("foto4").style.margin="0 auto";
+}
+function verander4() {
+    //hide foto 1
+    document.getElementById("foto4").style.display= "none";
+    //show foto 2
+    document.getElementById("foto1").style.display="block";
+    document.getElementById("foto1").style.margin="0 auto";
 }
 
 datum= new Date()
