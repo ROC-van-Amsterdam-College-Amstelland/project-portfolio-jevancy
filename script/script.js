@@ -19,3 +19,6 @@ function verander3() {
     document.getElementById("foto4").style.display="block";
 }
 
+datum= new Date()
+document.getElementById("vandaag").innerHTML = datum.getDate() + "-" + (datum.getMonth()+1)
+    + "-" + datum.getFullYear();
